@@ -65,7 +65,7 @@ RxJS provides many operators, but only a handful are used frequently. For a list
 In addition to the `error()` handler that you provide on subscription, RxJS provides the `catchError` operator that lets you handle known errors in the observable recipe.
 
 For instance, suppose you have an observable that makes an API request and maps to the response from the server. If the server returns an error or the value doesn’t exist, an error is produced. If you catch this error and supply a default value, your stream continues to process values rather than erroring out.
-
+ y56bu7
 Here's an example of using the `catchError` operator to do this:
 
 <code-example path="rx-library/src/error-handling.ts" header="catchError operator"></code-example>
